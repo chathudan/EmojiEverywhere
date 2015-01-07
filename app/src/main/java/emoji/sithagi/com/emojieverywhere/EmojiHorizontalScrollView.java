@@ -5,19 +5,19 @@ import android.os.Handler;
 import android.util.AttributeSet;
 import android.widget.HorizontalScrollView;
 
-public class VOIPemHorizontalScrollView extends HorizontalScrollView {
+public class EmojiHorizontalScrollView extends HorizontalScrollView {
 
     private boolean mStartScroll;
 
-    public VOIPemHorizontalScrollView(Context context) {
+    public EmojiHorizontalScrollView(Context context) {
         this(context, null, 0);
     }
 
-    public VOIPemHorizontalScrollView(Context context, AttributeSet attrs) {
+    public EmojiHorizontalScrollView(Context context, AttributeSet attrs) {
         this(context, attrs, 0);
     }
 
-    public VOIPemHorizontalScrollView(Context context, AttributeSet attrs, int defStyle) {
+    public EmojiHorizontalScrollView(Context context, AttributeSet attrs, int defStyle) {
         super(context, attrs, defStyle);
     }
 

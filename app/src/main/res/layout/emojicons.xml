@@ -168,7 +168,7 @@
             android:background="@android:color/black"
             android:orientation="vertical">
 
-            <emoji.sithagi.com.emojieverywhere.VOIPemHorizontalScrollView
+            <emoji.sithagi.com.emojieverywhere.EmojiHorizontalScrollView
                 android:id="@+id/chat_hscroll_buttons"
                 android:layout_width="fill_parent"
                 android:layout_height="fill_parent"
@@ -296,7 +296,7 @@
                             android:src="@drawable/ic_vp_voice_record" />
                     </LinearLayout>
                 </LinearLayout>
-            </emoji.sithagi.com.emojieverywhere.VOIPemHorizontalScrollView>
+            </emoji.sithagi.com.emojieverywhere.EmojiHorizontalScrollView>
         </LinearLayout>
 
         <LinearLayout
